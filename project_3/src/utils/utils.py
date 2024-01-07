@@ -132,15 +132,5 @@ def med_reshape(image, new_shape):
     return reshaped_image
 
 
-def adapt_input_tensor(input_tensor, model):
-    # Get the expected input size from the model's first layer
-    expected_input_size = list(model.conv1.weight.size())
-    expected_input_size[1] = input_tensor.size(1)  # Update the channel dimension
-
-    # Resize the input tensor to match the expected size
-    adapted_input_tensor = torch.nn.functional.interpolate(input_tensor, size=expected_input_size[2:], mode='nearest')
-
-    return adapted_input_tensor
-
 
 
