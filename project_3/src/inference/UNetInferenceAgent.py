@@ -8,7 +8,6 @@ from networks.RecursiveUNet import UNet
 from torch.utils.tensorboard import SummaryWriter
 
 from utils.utils import med_reshape
-#from utils.utils import adapt_input_tensor_to_unet
 
 
 import torch.nn.functional as F
