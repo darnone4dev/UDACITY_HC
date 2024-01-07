@@ -1,5 +1,5 @@
 ## Hippocampal Volume Quantification in Alzheimer's Progression ##
-project_2 contain the following section of the project  **Hippocampal Volume Quantification in Alzheimer's Progression**:
+project_2 contain the following section of the project  **Hippocampal Volume Quantification in Alzheimer's Progression**:\n
 -**section 1** (EDA) within eda directory
 -**section 2** (training validation and test) of the model
 1. within src/ , the python code
