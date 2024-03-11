@@ -28,7 +28,7 @@ The project is devided in two part.
 Notebook can be found under src/
 
 validation of test could be found under:
-images/test3_oneppgsource.png
+images/passed.png
                    
 ---
 
